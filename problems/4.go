@@ -1,4 +1,4 @@
-package main
+package problems
 
 import (
 	"fmt"
@@ -52,7 +52,8 @@ func max(slice []int) int {
 	return max
 }
 
-func main() {
+// Problem4 saves problem 4
+func Problem4() {
 
 	var palindromes []int
 	var n int

@@ -1,4 +1,4 @@
-package main
+package problems
 
 import "fmt"
 
@@ -11,7 +11,8 @@ func isPrime(n int) bool {
 	return true
 }
 
-func main() {
+// Problem3 solves problem 3
+func Problem3() {
 
 	n := 600851475143
 

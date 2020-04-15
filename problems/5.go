@@ -1,8 +1,9 @@
-package main
+package problems
 
 import "fmt"
 
-func main() {
+// Problem5 solves problem 5
+func Problem5() {
 	n := 19
 	condition := false
 

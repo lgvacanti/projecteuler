@@ -1,11 +1,12 @@
-package main
+package problems
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+// Problem2 solves problem 2
+func Problem2() {
 	start := time.Now()
 
 	var evenFib int
