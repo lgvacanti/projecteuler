@@ -3,5 +3,5 @@ package main
 import "./problems"
 
 func main() {
-	problems.Problem12()
+	problems.Problem13()
 }
