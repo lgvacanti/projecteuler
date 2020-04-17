@@ -10,7 +10,7 @@ import (
 func main() {
 	start := time.Now()
 
-	problems.Problem97()
+	problems.Problem146()
 
 	elapsed := time.Since(start)
 	fmt.Println("Took %s", elapsed)

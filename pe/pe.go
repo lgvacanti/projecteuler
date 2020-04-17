@@ -33,3 +33,23 @@ func IsPrime(n int) bool {
 		return true
 	}
 }
+
+// SieveOfEratosthenes implements the sieve of Eratosthenes
+func SieveOfEratosthenes(n int) []bool {
+	sieve := make([]bool, n+1)
+	for i := range sieve {
+		sieve[i] = true
+	}
+	sieve[0] = false
+	sieve[1] = false
+
+	for i, v := range sieve {
+		if v {
+			for j := i + i; j < n+1; j += i {
+				sieve[j] = false
+			}
+		}
+	}
+
+	return sieve
+}
